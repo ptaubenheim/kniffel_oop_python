@@ -27,7 +27,6 @@ class Player():
 
         print("Welche Würfel möchtest Du wählen?")
 
-        
         chosenDice = FailureHandling.FailureHandling.inputFailure()
                
         # print("Du hast folgende Würfel gewählt", chosenDice) ##### __repr__ einfügen

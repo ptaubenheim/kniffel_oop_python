@@ -9,7 +9,7 @@ def animatedDice():
     while idx < 10:
         print(ANIMATION_CHARS[idx % len(ANIMATION_CHARS)], end = '\r')
         idx += 1
-        time.sleep(0.1)
+        time.sleep(0.05)
 
 class Die():
     def __init__(self, value=0):

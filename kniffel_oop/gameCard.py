@@ -56,7 +56,7 @@ class GameCard():
                 print("FEHLER: ", katNum, "ist schon ausgespielt.\n\nBitte wähle eine andere Kategorie")
                 self.writeScore(newDice)
             else:
-                self.__gameCard[katNum].calculateKat(newDice)                
+                 self.__gameCard[katNum].calculateKat(newDice):             
                 print("Deine Punkte:", self.__gameCard[katNum].points)
                 print("Punkte in GameCard", self.__gameCard[katNum])
                 print(self.__gameCard)
